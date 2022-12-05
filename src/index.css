@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
 
 * {
@@ -5,9 +9,21 @@
 }
 
 body {
-  font-family: "Poppins", "sans-serif";
   margin: 0;
+ font-family: "Lobster Two", cursive !important;
+ 
 }
+.root {
+  display: flex;
+  flex-direction: column;
+}
+.navbar {
+   padding: 1rem 2rem;
+ background-color: #010001bd;
+
+}
+ 
+ 
 
 /* MovieCard Custom CSS */
 .movie {

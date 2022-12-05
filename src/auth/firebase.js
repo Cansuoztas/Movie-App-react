@@ -27,15 +27,14 @@ import {
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBs8fGTDif89kBBwtHIOmV7BXEBnVsB2PE",
-  authDomain: "movie-app-74794.firebaseapp.com",
-  projectId: "movie-app-74794",
-  storageBucket: "movie-app-74794.appspot.com",
-  messagingSenderId: "1081289263645",
-  appId: "1:1081289263645:web:9c631233c40f5ae8b194f4",
-  measurementId: "G-GV71M3556B"
+  apiKey: "AIzaSyD_X9pfeF2bJZFp7ZQSC97zmX2drILUyyI",
+  authDomain: "movie-app-fa3e2.firebaseapp.com",
+  projectId: "movie-app-fa3e2",
+  storageBucket: "movie-app-fa3e2.appspot.com",
+  messagingSenderId: "535955848556",
+  appId: "1:535955848556:web:6a4b8bcfcdea91aae24749",
 };
-
+//
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
@@ -113,7 +112,7 @@ export const signUpProvider = (navigate) => {
     .then((result) => {
       console.log(result);
       navigate("/");
-      toastSuccessNotify("Logged in successfully!");
+      toastSuccessNotify("Logged out successfully!");
     })
     .catch((error) => {
       // Handle Errors here.
